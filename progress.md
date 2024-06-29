@@ -1,0 +1,79 @@
+# OpenCV Book Progress
+## Completed: 16 out of 77 (24%)
+- [x] 0. Introduction (installation basically)
+- [x] 1. Gui Features 
+  - [x] 1.1 Getting Started with Images
+  - [x] 1.2 Getting Started with Videos
+  - [x] 1.3 Drawing Funstions
+  - [x] 1.4 Mouse as a Paint-Brush
+  - [x] 1.5 Trackbar as the Color Palette
+- [x] 2. Core Operations
+  - [x] 2.1 Basic Operations on Images
+  - [x] 2.2 Arithmetic Operations on Images
+  - [x] 2.3 Performance Measurement and Improvement Techniques
+- [ ] 3. Image Processing
+  - [x] 3.1 Changing Colorspaces
+  - [x] 3.2 Geometric Transformations of Images
+  - [x] 3.3 Image Thresholding
+  - [x] 3.4 Smoothing Images
+  - [x] 3.5 Morphological Transformations
+  - [x] 3.6 Image Gradients
+  - [x] 3.7 Canny Edge Detection
+  - [ ] 3.8 Image Pyramids
+  - [ ] 3.9 Countours
+    - [ ] 3.9.1 Contours Getting Started
+    - [ ] 3.9.2 Contour Features
+    - [ ] 3.9.3 Contour Properties
+    - [ ] 3.9.4 Contours: More Functions
+    - [ ] 3.9.5 Contours Hierarcy
+  - [ ] 3.10 Histograms
+    - [ ] 3.10.1 Find, Plot, Analyze
+    - [ ] 3.10.2 Histogram Equalization
+    - [ ] 3.10.3 2D Histograms
+    - [ ] 3.10.4 Histogram Backprojection
+  - [ ] 3.11 Image Transforms
+    - [ ] 3.11.1 Fourier Transform
+  - [ ] 3.12 Template Matching
+  - [ ] 3.13 Hough Line Transform
+  - [ ] 3.14 Hough Circle Transform
+  - [ ] 3.15 Image Segmentation with Watershed Algorithm
+  - [ ] 3.16 Interactive Foreground Extraction using GrabCut Algorithm
+- [ ] 4. Feature Detection and Description
+  - [ ] 4.1 Understanding Features
+  - [ ] 4.2 Harris Corner Detection
+  - [ ] 4.3 Shi-Tomasi Corner Detector & Good Features to Track
+  - [ ] 4.4 Introduction to Scale-Invariant Feature Transform (SIFT)
+  - [ ] 4.5 Introduction to Speeded-Up Robust Features (SURF)
+  - [ ] 4.6 FAST Algorithm for Corner Detection
+  - [ ] 4.7 Binary Robust Independent Elementary Features (BRIEF)
+  - [ ] 4.8 Oriented FAST and Rotated BRIEF (ORB)
+  - [ ] 4.9 Feature Matching
+  - [ ] 4.10 Feature Matching + Homography to find Objects
+- [ ] 5. Video Analysis (video module)
+- [ ] 6. Camera Calibration and 3D Reconstruction
+  - [ ] 6.1 Camera Calibration
+  - [ ] 6.2 Pose Estimation
+  - [ ] 6.3 Epipolar Geometry
+  - [ ] 6.4 Depth Map from Stereo Images
+- [ ] 7. Machine Learning
+  - [ ] 7.1 kNN
+    - [ ] 7.1.1 Understanding kNN
+    - [ ] 7.1.2 OCR of Hand-written Data using kNN
+  - [ ] 7.2 SVM
+    - [ ] 7.2.1 Understanding SVM
+    - [ ] 7.2.2 OCR of Hand-written Data using SVM
+  - [ ] 7.3 K-Means
+    - [ ] 7.3.1 Understanding K-Means
+    - [ ] 7.3.2 K-means Clustering in OpenCV
+- [ ] 8. Computational Photography
+  - [ ] 8.1 Image Denoinsing
+  - [ ] 8.2 Image Inpainting
+  - [ ] 8.3 High Dynamic Range
+- [ ] 9. Object Detection (objdetect module)
+  - [ ] 9.1 Detection of ArUco Markers
+  - [ ] 9.2 Detection of ArUco Boards
+  - [ ] 9.3 Detection of ChArUco Boards
+  - [ ] 9.4 Detection of Diamond Markers
+  - [ ] 9.5 Calibration with ArUco and ChArUco
+  - [ ] 9.6 Aruco module FAQ
+- [ ] 10. OpenCV-Python Bindings
