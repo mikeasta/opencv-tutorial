@@ -1,5 +1,5 @@
 # OpenCV Book Progress
-## Completed: 16 out of 77 (24%)
+## Completed: 20 out of 77 (26%)
 - [x] 0. Introduction (installation basically)
 - [x] 1. Gui Features 
   - [x] 1.1 Getting Started with Images
@@ -19,9 +19,9 @@
   - [x] 3.5 Morphological Transformations
   - [x] 3.6 Image Gradients
   - [x] 3.7 Canny Edge Detection
-  - [ ] 3.8 Image Pyramids
+  - [x] 3.8 Image Pyramids
   - [ ] 3.9 Countours
-    - [ ] 3.9.1 Contours Getting Started
+    - [x] 3.9.1 Contours Getting Started
     - [ ] 3.9.2 Contour Features
     - [ ] 3.9.3 Contour Properties
     - [ ] 3.9.4 Contours: More Functions

@@ -1,14 +1,9 @@
-import numpy as np
-import cv2 as cv
- 
-img = cv.imread('../../../images/dog.jpg', cv.IMREAD_GRAYSCALE)
-assert img is not None, "file could not be read, check with os.path.exists()"
-ret,thresh = cv.threshold(img,127,255,0)
-contours,hierarchy = cv.findContours(thresh, 1, 2)
- 
-print(contours)
-cv.drawContours(img, contours, -1, (0, 255, 0), 1)
+import cv2 as cv 
+import numpy as np 
 
-cv.imshow("dog", cv.cvtColor(img, cv.COLOR_GRAY2BGR))
-cv.waitKey(0)
-cv.destroyAllWindows()
+img = cv.imread("../../../images/dog.jpg")
+img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+ret, thresh = cv.threshold(img_gray, 127, 255, cv.THRESH_BINARY)
+contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+
+
